@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/layout">
+
+    <!--text view for the message to display-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="48dp"
+        android:text="@string/hello_world"
+        android:textAlignment="center" />
+
+    <!--button view for hindi language-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/country_flag" />
+
+    <Button
+        android:id="@+id/btnArabic"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arabic"/>
+
+    <!--button view for english language-->
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"/>
+
+</LinearLayout>
